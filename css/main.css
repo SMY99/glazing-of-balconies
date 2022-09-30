@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Futura PT';
-    transition: 250ms;
 }
 
 header{
@@ -15,7 +14,7 @@ header{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    width: 380px;
+    width: 360px;
 }
 
 .whatsapp-container, .phone-number-container{
@@ -25,7 +24,15 @@ header{
     justify-content: center;
     height: 100px;
 }
-
+.bold{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100.6%;
+    text-align: center;
+    color: #4A4A4A;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
 .navbar-nav{
     align-items: center;
     display: flex;
@@ -96,8 +103,26 @@ header{
     font-size: 50px;
     line-height: 113.5%;
     /* identical to box height, or 57px */
+    color: #4A4A4A;
+}
+
+.h3{
+    font-style: normal;
+    font-weight: 450;
+    font-size: 35px;
+    line-height: 106%;
+    /* or 37px */
+    color: #FFFFFF;
+}
 
 
+.text-bold{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 113.5%;
+    /* identical to box height, or 25px */
     color: #4A4A4A;
 }
 
@@ -114,6 +139,19 @@ header{
     color: #FFFFFF;
     transform: skew(-20deg);
     
+}
+
+.white-block{
+    width: 195px;
+    height: 32px;
+    background: #FCFDFF;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 115%;   
+    color: #4A4A4A;
+    transform: skew(-20deg);
 }
 .red-block-text{
     width: 192px;
@@ -140,6 +178,15 @@ header{
     align-content: center;
     justify-content: center;
     height: 41px;
+}
+
+.fix-white{
+    display: flex;
+    transform: skew(20deg);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 32px;
 }
 
 .btn-call-up{
@@ -313,4 +360,148 @@ span{
     left: 0;
     z-index: -1;
     top: 1565px;
+}
+
+.block-info-success{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 115%;
+    /* or 18px */
+    color: #4A4A4A;
+
+}
+
+
+.block-info-success img{
+    width: 30px;
+    height: 30px;
+    margin-right: .8rem;
+}
+
+.block-info-success p{
+    margin: 0;
+    padding: 0;
+}
+
+.block-info-success span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 115%;
+    color: #4A4A4A;
+}
+
+.application-block{
+    width: 100%;
+    height: 310px;
+    background: linear-gradient(180deg, #EF5152 0%, #CF2829 100%);
+    opacity: 0.8;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 2.5rem;
+}
+
+.application-block span{
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 115%;
+    color: #FFFFFF;
+}
+
+.btn-send-application{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 65px;
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 115%;
+    color: #4A4A4A;
+    cursor: pointer;
+}
+
+.application-block .form-controls{
+    width: 100%;
+    height: 65px;
+    border: 0;
+    background: #DC7778;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 115%;
+    /* identical to box height, or 16px */
+    color: #FFFFFF;
+    padding: .375rem .75rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+}
+:-ms-input-placeholder {
+    color: #FFFFFF;
+}
+::-ms-input-placeholder {
+    color: #FFFFFF;
+}
+
+  span.small{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 115%;
+    color: #FFFFFF;
+
+}
+
+.red-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 113.5%;
+    color: #CA2223;
+}
+
+.info-blocks{
+    width: 374px;
+    height: 360px;
+    background: #F6F7F8;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.info-blocks p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 126.5%;
+    color: #4A4A4A;
+    margin: 0;
+}
+
+.info-blocks img{
+    margin-left: 1.5rem;
+}
+.info-blocks img:nth-child(2){
+    margin-left: 3.5rem;
+}
+
+.d-flex-info{
+    display: flex;
+    justify-content: space-between;
 }
