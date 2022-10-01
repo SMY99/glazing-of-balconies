@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Futura PT';
+    line-height: 1;
 }
 
 header{
@@ -273,7 +274,7 @@ span{
 
 .card{
     border-radius: 10px;
-    min-height: 268px;
+    height: auto;
     border: 0;
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.13);
@@ -355,7 +356,7 @@ span{
 
 .img-clouds-small{
     position: absolute;
-    width: 1400px;
+    width: 100%;
     height: 315px;
     left: 0;
     z-index: -1;
@@ -366,7 +367,6 @@ span{
     display: flex;
     align-items: center;
     width: 20%;
-    font-family: 'Futura PT';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -375,9 +375,23 @@ span{
     color: #4A4A4A;
 
 }
+.block-info-success-1{
+    display: flex;
+    align-items: center;
+    width: 85%;
+}
 
+.block-info-success-1 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    /* or 21px */
+    color: #4A4A4A;
+    margin: 0
+}
 
-.block-info-success img{
+.block-info-success img, .block-info-success-1 img{
     width: 30px;
     height: 30px;
     margin-right: .8rem;
@@ -398,7 +412,7 @@ span{
 
 .application-block{
     width: 100%;
-    height: 310px;
+    min-height: 210px;
     background: linear-gradient(180deg, #EF5152 0%, #CF2829 100%);
     opacity: 0.8;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
@@ -476,13 +490,13 @@ span{
 }
 
 .info-blocks{
-    width: 374px;
-    height: 360px;
+    width: 31%;
+    min-height: 360px;
     background: #F6F7F8;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     margin-bottom: 2rem;
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 
 .info-blocks p{
@@ -504,4 +518,118 @@ span{
 .d-flex-info{
     display: flex;
     justify-content: space-between;
+}
+.d-flex-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.red-box{
+    align-self: flex-end;
+    margin-top: 20px;
+    width: 170px;
+    height: 182px;
+    background: linear-gradient(180deg, #EF5253 0%, #D0292A 100%);
+    border-radius: 10px;
+    padding: 1rem.6rem;
+    margin-left: -255px;
+}
+
+.red-box p{
+    font-style: normal;
+    font-weight: 450;
+    font-size: 40px;
+    line-height: 106%;
+    /* or 42px */
+    text-align: center;
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+.red-box span{
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.d-flex-success{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    justify-content: space-around;
+    height: 285px;
+}
+
+.example-link{
+    width: 165px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 106%;
+    /* or 19px */
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: #DC7778;
+    margin-left: 1rem;
+}
+
+section .card-body{
+    padding: 1.5rem 1rem;
+    margin-left: 0;
+}
+
+section .leave-a-request{
+    margin-left: .7rem;
+}
+
+.note-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 115%;
+    /* or 21px */
+    color: #4A4A4A;
+}
+
+.round-border{
+    border: 15px solid #DC7778 ;
+    border-radius: 50%;
+    background-color: #DC7778;
+    margin-right: 2reem;
+}
+
+
+.img-flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.img-fix{
+    margin-left: 0rem;
+}
+
+.d-flex-img p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 126.5%;
+    /* or 28px */
+    color: #4A4A4A;
+}
+
+.d-flex-img span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 115%;
+    /* or 21px */
+    color: #4A4A4A;
+}
+
+.pad-text{
+    padding-left: 1rem;
 }
