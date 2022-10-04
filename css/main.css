@@ -86,10 +86,23 @@ header {
 
 }
 
+.navbar{
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+
 .navbar-brand {
     padding-right: 2rem;
 }
-
+.cloud{
+    position: absolute;
+    bottom: -55px;
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/clouds.svg);
+}
 .navbar-nav p {
     font-style: normal;
     font-weight: 450;
@@ -600,7 +613,8 @@ span.small {
     margin: 5px;
 }
 .img-ttt{
-    width: 55%;
+    margin-top: -95px;
+    width: 30%;
     background-repeat: no-repeat;
     background-image: url(../images/small-elm-1.svg);
 }
@@ -641,7 +655,14 @@ section .card-body {
 section .leave-a-request {
     margin-left: .7rem;
 }
-
+.carousel-caption{
+    text-align: left;
+    bottom: 9rem;
+}
+.bg-img{
+    min-height: 768px;
+    object-fit: cover;
+}
 .note-text {
     font-style: normal;
     font-weight: 400;
@@ -649,6 +670,21 @@ section .leave-a-request {
     line-height: 115%;
     /* or 21px */
     color: #4A4A4A;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 25%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 62px;
+    height: 62px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-control-next, .carousel-control-prev{
+    height: 768px;
 }
 
 .round-border {
@@ -668,7 +704,10 @@ section .leave-a-request {
     margin-left: 0rem;
     padding-left: 2rem;
 }
-
+i{
+    color: #000;
+    z-index: 999;
+}
 .img-flex p {
     font-style: normal;
     font-weight: 600;
