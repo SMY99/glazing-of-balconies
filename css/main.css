@@ -416,7 +416,6 @@ span {
 .block-info-success-1 {
     display: flex;
     align-items: center;
-    width: 85%;
 }
 
 .block-info-success-1 p {
@@ -428,7 +427,11 @@ span {
     color: #4A4A4A;
     margin: 0
 }
-
+.img-bg-1{
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-image: url(../images/img-content-1.svg);
+}
 .block-info-success img,
 .block-info-success-1 img {
     width: 30px;
@@ -575,16 +578,9 @@ span.small {
     justify-content: space-between;
 }
 
-.d-flex-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-
 .red-box {
     align-self: flex-end;
-    margin-top: 20px;
+    margin-top: 50px;
     width: 170px;
     height: 182px;
     background: linear-gradient(180deg, #EF5253 0%, #D0292A 100%);
@@ -603,7 +599,11 @@ span.small {
     color: #FFFFFF;
     margin: 5px;
 }
-
+.img-ttt{
+    width: 55%;
+    background-repeat: no-repeat;
+    background-image: url(../images/small-elm-1.svg);
+}
 .red-box span {
     font-style: normal;
     font-weight: 450;
@@ -721,15 +721,8 @@ section .leave-a-request {
     line-height: 106%;
     color: #FFFFFF;
 }
-
-.d-flex-img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .mb-fix {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .text-span {
@@ -845,6 +838,9 @@ section .leave-a-request {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.img-responsive{
+    width: 100%;
 }
 
 footer{

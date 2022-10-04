@@ -9,10 +9,29 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/media.css">
   <link rel="stylesheet" href="fonts/stylesheet.css">
+  <link rel="stylesheet" href="css/landing-slider.css">
   <title>Остекление балконов</title>
 </head>
 
 <body>
+  <!-- <div class="slider">
+    <div class="slider__wrapper">
+        <div class="slider__items">
+            <div class="slider__item">
+                <div class="slide__img">
+                    <a>
+                        <img class="img-fluid" src="images/bg_1.svg" alt="">
+                    </a>
+                </div>
+                <div class="slide__text">
+                    <h3></h3>
+                    <span></span>
+                    <a target="_blank" href="{{ $slide->button_link }}" class=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
   <header>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light pt-3">
@@ -202,7 +221,7 @@
 
 
     <div class="d-flex justify-content-between mt-4 row">
-      <div class="block-info-success col-2">
+      <div class="block-info-success col-md-2 col-sm-12">
 
         <img src="images/logo_success.svg" alt="">
         <div>
@@ -212,7 +231,7 @@
 
       </div>
 
-      <div class="block-info-success col-2">
+      <div class="block-info-success col-md-2 col-sm-12">
 
         <img src="images/logo_success.svg" alt="">
         <div>
@@ -221,7 +240,7 @@
 
       </div>
 
-      <div class="block-info-success col-2">
+      <div class="block-info-success col-md-2 col-sm-12">
         <img src="images/logo_success.svg" alt="">
         <div>
           <span>Размера</span> плащадиокон, их количества
@@ -229,7 +248,7 @@
 
       </div>
 
-      <div class="block-info-success col-2">
+      <div class="block-info-success col-md-2 col-sm-12">
         <img src="images/logo_success.svg" alt="">
         <div>
           <span>Вида стеклопакета: </span>стандартный или раздвижной
@@ -237,7 +256,7 @@
 
       </div>
 
-      <div class="block-info-success col-2">
+      <div class="block-info-success col-md-2 col-sm-12">
         <img src="images/logo_success.svg" alt="">
         <div>
           Фурнитуры, доп.опций, акссесуаров, выполнение отделочных работ
@@ -261,15 +280,15 @@
 
       <div class="row mt-4 mb-3">
 
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
           <input type="text" class="form-controls" placeholder="Имя" aria-label="Имя">
         </div>
 
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
           <input type="text" class="form-controls" placeholder="Фамилия" aria-label="Фамилия">
         </div>
 
-        <div class="col-4">
+        <div class="col-md-4 col-sm-12">
           <div class="btn-send-application">Оставить заявку</div>
         </div>
 
@@ -294,84 +313,79 @@
 
       <div class="row d-flex justify-content-around">
 
-        <div class="info-blocks col-3">
+        <div class="info-blocks col-md-3 col-sm-12">
           <p>Изготавливаем окна на собственном заводе в городе Курган</p>
           <img src="images/info-img-1.svg" alt="">
         </div>
 
-        <div class="info-blocks col-3">
+        <div class="info-blocks  col-md-3 col-sm-12">
           <p>Все работы выполняют только профессиональные работники с опытом от 12 лет</p>
           <img src="images/info-img-2.svg" alt="">
         </div>
 
-        <div class="info-blocks col-3">
+        <div class="info-blocks col-md-3 col-sm-12">
           <p>Контроль качества на каждом этапе производства от сырья до готового продукта</p>
           <img src="images/info-img-3.svg" alt="">
         </div>
 
       </div>
-
-      <img class="mt-2" src="images/img-big.svg" alt="" style="width:66%; margin-bottom: 2rem;">
+      <div class="row">
+        <img class="mt-2 col-md-8 col-sm-12" src="images/img-big.svg" alt="" >
+      </div>
+      
 
       <p class="red-text mt-4">Доставка и установка: </p>
 
-      <div class="d-flex-content mt-5">
+      <div class="d-flex-content row mt-5">
 
-        <img src="images/img-content-1.svg" alt="">
-        <div class="d-flex flex-row-reverse">
-          <div class="red-box">
-            <span>за 15 лет опыта можем сказать, что</span>
-            <p>98%</p>
-            <span>качества окон зависит от правильной установки</span>
-          </div>
-          <img src="images/small-elm-1.svg" alt="" style="
-          margin-top: -250px;">
+        <div class="col-md-6 col-sm-12 img-bg-1">
+          <img src="" alt="">
+            <div class="d-flex flex-row-reverse">
+              <div class="red-box">
+                <span>за 15 лет опыта можем сказать, что</span>
+                <p>98%</p>
+                <span>качества окон зависит от правильной установки</span>
+              </div>
+              <div class="img-ttt"></div>
+            </div>
         </div>
+        
+        <div class="col-md-6 col-sm-12">
+          <div class="d-flex-success">
+            <div class="block-info-success-1">
+              <img src="images/logo_success.svg" alt="">
+              <p>
+                Не следует, однако забывать, что реализация намеченных плановых заданий играет важную роль в формировании
+                модели развития.
+              </p>
+            </div>
 
-        <div class="d-flex-success">
+            <div class="block-info-success-1">
+              <img src="images/logo_success.svg" alt="">
+              <p>
+                Не следует, однако забывать, что реализация намеченных плановых заданий играет важную роль в формировании
+                модели развития.
+              </p>
+            </div>
 
-          <div class="block-info-success-1">
-
-            <img src="images/logo_success.svg" alt="">
-            <p>
-              Не следует, однако забывать, что реализация намеченных плановых заданий играет важную роль в формировании
-              модели развития.
-            </p>
-
+            <div class="block-info-success-1">
+              <img src="images/logo_success.svg" alt="">
+              <p>
+                Не следует, однако забывать, что реализация намеченных плановых заданий играет важную роль в формировании
+                модели развития.
+              </p>
+            </div>
           </div>
-
-          <div class="block-info-success-1">
-
-            <img src="images/logo_success.svg" alt="">
-            <p>
-              Не следует, однако забывать, что реализация намеченных плановых заданий играет важную роль в формировании
-              модели развития.
-            </p>
-
-          </div>
-
-          <div class="block-info-success-1">
-
-            <img src="images/logo_success.svg" alt="">
-            <p>
-              Не следует, однако забывать, что реализация намеченных плановых заданий играет важную роль в формировании
-              модели развития.
-            </p>
-
-          </div>
-
         </div>
-
-
       </div>
 
       <p class="red-text mt-4 mb-5">Отделка: </p>
 
       <section>
-        <div class="card mb-4">
+        <div class="card mb-4" style="background: #F6F7F8;">
           <div class="row">
             <div class="col-md-2">
-              <img src="images/card-1.svg" alt="..." style="width: 200px">
+              <img src="images/card-1.svg" alt="..." style="width: 200px; border-radius: 10px 0 0 10px;">
             </div>
             <div class="col-md-8">
               <div class="pl-3 card-body">
@@ -391,10 +405,10 @@
           </div>
         </div>
 
-        <div class="card mb-4">
-          <div class="row ">
+        <div class="card mb-4" style="background: #F6F7F8;">
+          <div class="row">
             <div class="col-md-2">
-              <img src="images/card-2.svg" alt="..." style="width: 200px">
+              <img src="images/card-2.svg" alt="..." style="width: 200px; border-radius: 10px 0 0 10px;">
             </div>
             <div class="col-md-8">
               <div class="pl-3 card-body">
@@ -469,15 +483,15 @@
 
           <div class="row mt-4 mb-3">
 
-            <div class="col-4">
+            <div class="col-md-4 col-sm-12">
               <input type="text" class="form-controls" placeholder="Ваше имя" aria-label="Имя">
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4 col-sm-12">
               <input type="text" class="form-controls" placeholder="Номер телефона" aria-label="Фамилия">
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4 col-sm-12">
               <div class="btn-send-application">Оставить заявку</div>
             </div>
 
@@ -499,51 +513,51 @@
       </div>
       <span>С дополнительными опциями - шкафчики, полки, сушки для белья, жалюзи, теплый пол и многое
         другое</span>
-      <div class="d-flex-img mt-4">
+      <div class="row d-flex justify-content-between mt-4">
 
-        <div class="mb-fix">
+        <div class="mb-fix col-md-3 col-sm-12">
           <div class="img-wrap">
             <img src="/images/img-title-1.svg" class="img-responsive">
             <span>Жалюзи рулонные</span>
           </div>
         </div>
-        <div class="mb-fix">
+        <div class="mb-fix col-md-3 col-sm-12">
           <div class="img-wrap">
             <img src="/images/img-title-2.svg" class="img-responsive">
             <span>Сушилка для<br> белья «Лиана»</span>
           </div>
         </div>
-        <div class="mb-fix">
+        <div class="mb-fix col-md-3 col-sm-12">
           <div class="img-wrap">
             <img src="/images/img-title-3.svg" class="img-responsive">
             <span>Шкаф с раздвижными створками</span>
           </div>
         </div>
-        <div class="mb-fix">
+        <div class="mb-fix col-md-3 col-sm-12">
           <div class="img-wrap">
             <img src="/images/img-title-4.svg" class="img-responsive">
             <span>Жалюзи тканевые</span>
           </div>
         </div>
-        <div class="mb-fix">
+        <div class="mb-fix col-md-3 col-sm-12">
           <div class="img-wrap">
             <img src="/images/img-title-5.svg" class="img-responsive">
             <span>Шкаф с распашными створками</span>
           </div>
         </div>
-        <div class="mb-fix">
+        <div class="mb-fix col-md-3 col-sm-12">
           <div class="img-wrap">
             <img src="/images/img-title-6.svg" class="img-responsive">
             <span>Теплый пол</span>
           </div>
         </div>
-        <div class="mb-fix">
+        <div class="mb-fix col-md-3 col-sm-12">
           <div class="img-wrap">
             <img src="/images/img-title-7.svg" class="img-responsive">
             <span>Жалюзи горизонтальные</span>
           </div>
         </div>
-        <div class="mb-fix">
+        <div class="mb-fix col-md-3 col-sm-12">
           <div class="img-wrap">
             <img src="/images/img-title-8.svg" class="img-responsive">
             <span>Инфрокрасный обогреватель</span>
@@ -565,31 +579,31 @@
       в широком спектре сфер в различных назначениях
     </p>
     <div class="row d-flex justify-content-around mt-4">
-      <div class="col-4 ">
+      <div class="col-md-4 col-sm-12">
         <img src="images/img-house-1.svg" alt="">
         <p class="down-text">Остекление беседок</p>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 col-sm-12">
         <img src="images/img-house-2.svg" alt="">
         <p class="down-text">Остекление летних кухонь</p>
       </div>
-      <div class="col-4 mb-3">
+      <div class="col-md-4 col-sm-12 mb-3">
         <img src="images/img-house-3.svg" alt="">
         <p class="down-text">Мангальные зоны</p>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 col-sm-12">
         <img src="images/img-house-4.svg" alt="">
         <p class="down-text">Бассейны</p>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 col-sm-12">
         <img src="images/img-house-5.svg" alt="">
         <p class="down-text">Летние террасы</p>
       </div>
-      <div class="col-4 mb-3">
+      <div class="col-md-4 col-sm-12 mb-3">
         <img src="images/img-house-6.svg" alt="">
         <p class="down-text">Зимние сады</p>
       </div>
-      <div class="col-7">
+      <div class="col-md-7 col-sm-12">
         <div class="card mb-4">
           <div class="row">
             <div class="col-md-7">
@@ -604,7 +618,7 @@
           </div>
         </div>
       </div>
-      <div class="col-5 mb-5">
+      <div class="col-md-5 col-sm-12 mb-5">
         <div class="card d-flex mb-4" style="background: #F6F7F8;">
           <div class="row">
             <div class="col-md-7">
@@ -632,7 +646,7 @@
     </div>
 
     <div class="row content-card-fix mt-5">
-      <div class="col-8">
+      <div class="col-md-8 col-sm-12">
         <div class="card p-4 mb-4" >
           <div class="row d-flex flex-column">
             <div class="block-info-success col-2" style="width: 100%;">
@@ -649,7 +663,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 col-sm-12">
         <div class="card p-4 mb-4">
           <div class="row d-flex flex-column">
             <div class="block-info-success col-2" style="width: 100%;">
@@ -668,7 +682,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 col-sm-12">
         <div class="card p-4 mb-4">
           <div class="row d-flex flex-column">
             <div class="block-info-success col-2" style="width: 100%;">
@@ -685,7 +699,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 col-sm-12">
         <div class="card p-4 mb-4">
           <div class="row d-flex flex-column">
             <div class="block-info-success col-2" style="width: 100%;">
@@ -702,7 +716,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 col-sm-12">
         <div class="card p-4 mb-4">
           <div class="row d-flex flex-column">
             <div class="block-info-success col-2" style="width: 100%;">
@@ -788,9 +802,9 @@
       Контакты
     </div>
     <div class="row gray-bg mb-5">
-      <div class="col-4 flex-address">
+      <div class="col-md-4 col-sm-12 flex-address">
 
-        <div class="block-info-success col-2" style="width: 100%;">
+        <div class="block-info-success col-md-2 col-sm-12" style="width: 100%;">
           <img src="images/logo-address-1.svg" alt="">
           <div class="address">
               <p>Адрес:</p>
@@ -798,7 +812,7 @@
           </div>
         </div>
 
-        <div class="block-info-success col-2" style="width: 100%;">
+        <div class="block-info-success col-md-2 col-sm-12" style="width: 100%;">
           <img src="images/logo-address-2.svg" alt="">
           <div class="address">
             <p>Телефон:</p>
@@ -807,7 +821,7 @@
           </div>
         </div>
 
-        <div class="block-info-success col-2" style="width: 100%;">
+        <div class="block-info-success col-md-2 col-sm-12" style="width: 100%;">
           <img src="images/logo-address-3.svg" alt="">
           <div class="address">
             <p>Почта: </p>
@@ -816,7 +830,7 @@
         </div>
 
       </div>
-      <div class="col-8">
+      <div class="col-md-8 col-sm-12">
         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aced9c2a3121d98cbe5e0d306a8d85e5944b2d733af0d468808052f3fb5d499d1&amp;source=constructor" width="100%" height="315" frameborder="0"></iframe>
       </div>
     </div>
@@ -824,7 +838,7 @@
 
   <footer>
     <div class="container row">
-      <div class="col-6">
+      <div class="col-md-6 col-sm-12">
         <img src="images/logo.svg" alt="">
       </div>
       <div class="col-6">
