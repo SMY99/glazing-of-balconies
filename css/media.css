@@ -179,4 +179,12 @@
     .block-info-success-1 p{
         font-size: 16px;
     }
+    .img-bg-3 img{
+        position:initial; 
+        width: 100%;
+        margin-bottom: -1.5rem;
+    }
+    .application-block{
+        padding: 1.5rem;
+    }
 }
