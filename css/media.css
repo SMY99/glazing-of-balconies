@@ -95,7 +95,7 @@
         width: 100% !important;
         font-style: normal;
         font-weight: 600;
-        font-size: 25px;
+        font-size: 29px;
         line-height: 113.5%;
         /* or 28px */
 
@@ -114,7 +114,10 @@
 
         color: #4A4A4A;
     }
-
+    img.img-card{
+        width: 60px!important;
+        height: auto!important;
+    }
     .card img {
         width: 100% !important;
         height: 200px;
@@ -186,5 +189,147 @@
     }
     .application-block{
         padding: 1.5rem;
+    }
+    .h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 106.5%;
+        /* or 37px */
+
+        text-align: center;
+    }
+    .left-text{
+        width: 100%;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 106%;
+        /* or 17px */
+
+        text-align: center;
+    }
+    .img-bg-7, .contents{
+        width: 100%;
+    }
+    .btn-call-up{
+        width: 93%;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .flex-column-block{
+        flex-direction: column;
+    }
+    .block{
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+    .carousel-caption{
+        bottom: 0;
+    }
+    .carousel-caption{
+        width: 100%;
+        right: 0;
+        left: 0;
+        padding: .5rem;
+        top: 5%;
+    }
+    .red-block{
+        margin-top: 1.5rem;
+    }
+    .line{
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    .block img{
+        width: 27px;
+        height: 27px;
+    }
+    .text-w{
+        font-style: normal;
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 106%;
+        /* or 15px */
+
+        text-align: center;
+
+        color: #4A4A4A;
+    }
+
+    nav .container{
+        width: 100%;
+    }
+
+    .navbar-light .navbar-toggler{
+        border: 0;
+        background-color: #fff;
+    }
+
+    .navbar-light .navbar-toggler-icon{
+        background-image: url(../images/humburger.svg);
+    }
+
+    .navbar-nav{
+        background-color: #fff;
+        width: 100%;
+        padding: 1rem 0;
+        border-radius: 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+        font-style: normal;
+        font-weight: 450;
+        font-size: 18px;
+        line-height: 106%;
+        /* identical to box height, or 19px */
+        margin: .3rem 0;
+        text-align: center;
+        color: #4A4A4A;
+    }
+
+    .line-red{
+        height: 1px;
+        width: 95%;
+        background-color:  #DC7778;
+        margin: 1rem 0;
+    }
+
+    .navbar-light .navbar-toggler{
+        color: rgba(0,0,0,0);
+    }
+
+    .red-block-text{
+        width: 170px;
+    }
+
+    .fix{
+        font-size: 20px;
+    }
+    .fix-block{
+        display: flex;
+        justify-content: center;
+    }
+    .h3{
+        text-align: center;
+        font-size: 25px;
+    }
+    .btn-group{
+        display: flex;
+        justify-content: center;
+    }
+    .img-bg-4{
+        width: 231px;
+        height: 199px;
+        object-fit: scale-down;
+    }
+    .img-bg-4{
+        display: none;
+    }
+    .img-bg-4-fix{
+        display: block;
+        width: 231px;
     }
 }

@@ -40,7 +40,7 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Контакты</a>
             </li>
-
+            <div class="line-red"></div>
             <div class="container-links">
               <div class="whatsapp-container">
                 <p>Есть вопрос?</p>
@@ -63,7 +63,7 @@
       <div class="carousel-item active">
         <img src="images/slider-bg-1.svg" class="d-block w-100 bg-img" alt="...">
         <div class="carousel-caption ">
-          <div class="container mt-5 d-flex justify-content-between">
+          <div class="container mt-5 d-flex justify-content-between flex-column-block">
             <div class="contents">
               <div class="h1">
                 Остекление балконов<br> и лоджий в Кургане<br> от производителя
@@ -74,7 +74,7 @@
                 </div>
               </div>
 
-              <div class="row mt-3">
+              <div class="row mt-3 fix-block">
                 <div class="line"></div>
                 <p class="left-text">Наш замерщик бесплатно выездет к вам в удобное время, проконсультирует по всем
                   вопросам и
@@ -103,8 +103,8 @@
 
       <div class="carousel-item">
         <img src="images/slider-bg-2.svg" class="d-block w-100 bg-img" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <div class="container mt-5 d-flex justify-content-between">
+        <div class="carousel-caption">
+          <div class="container mt-5 d-flex justify-content-between flex-column-block">
             <div class="contents">
               <div class="h1">
                 Производство окон<br> ПВХ на собственном заводе
@@ -115,7 +115,7 @@
                 </div>
               </div>
 
-              <div class="row mt-3">
+              <div class="row mt-3 fix-block">
                 <div class="line"></div>
                 <p class="left-text">Компания «Модерн» работает на рынке с 2004 года, является самой опытной и надежной
                   в городе Курган </p>
@@ -143,8 +143,8 @@
 
       <div class="carousel-item">
         <img src="images/slider-bg-3.svg" class="d-block w-100 bg-img" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <div class="container mt-5 d-flex justify-content-between">
+        <div class="carousel-caption">
+          <div class="container mt-5 d-flex justify-content-between flex-column-block">
             <div class="contents">
               <div class="h1">
                 Производство алюминиевых конструкций
@@ -155,7 +155,7 @@
                 </div>
               </div>
 
-              <div class="row mt-3">
+              <div class="row mt-3 fix-block">
                 <div class="line"></div>
                 <p class="left-text">Компания «Модерн» работает на рынке с 2004 года, является самой опытной и надежной
                   в городе Курган</p>
@@ -222,9 +222,9 @@
       <div class="col">
         <div class="card mb-4">
           <div class="row ">
-            <div class="col-md-5">
+            <div class="col-md-5 position-relative">
               <img src="images/card-image-1.svg" alt="...">
-              <div></div>
+              <div class="ring-number">01</div>
             </div>
             <div class="col-md-6">
               <div class="card-body">
@@ -241,8 +241,9 @@
       <div class="col">
         <div class="card mb-4">
           <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-5 position-relative">
               <img src="images/card-image-2.svg" alt="...">
+              <div class="ring-number">02</div>
             </div>
             <div class="col-md-6">
               <div class="card-body">
@@ -259,8 +260,9 @@
       <div class="col">
         <div class="card mb-4">
           <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-5 position-relative">
               <img src="images/card-image-3.svg" alt="...">
+              <div class="ring-number">03</div>
             </div>
             <div class="col-md-6">
               <div class="card-body pl-3">
@@ -277,8 +279,9 @@
       <div class="col">
         <div class="card mb-4">
           <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-5 position-relative">
               <img src="images/card-image-4.svg" alt="...">
+              <div class="ring-number">04</div>
             </div>
             <div class="col-md-6">
               <div class="card-body">
@@ -477,7 +480,7 @@
 
         <p class="red-text mt-4 mb-5">Отделка: </p>
 
-        <section>
+        <section style="position: relative;">
           <div class="card mb-4" style="background: #F6F7F8;">
             <div class="row">
               <div class="col-md-2">
@@ -514,14 +517,16 @@
                   <div class="row d-flex align-items-center">
                     <div class="leave-a-request">Узнать подробнее</div>
                     <div class="example-link">Смотреть примеры отделки</div>
+                    <div class="img-small"></div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="img-bg-7"></div>
+          
+    
         </section>
-
+        <div class="img-bg-7"></div>
         <div class="row d-flex justify-content-between">
 
           <div class="col-lg-2">
@@ -589,14 +594,16 @@
                   <input type="text" class="form-controls" placeholder="Номер телефона" aria-label="Фамилия">
                 </div>
 
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-4 col-sm-12 position-relative">
                   <div class="btn-send-application">Оставить заявку</div>
+                  <img class="img-bg-4-fix" src="images/img-md-elm-1.png" alt="">
                 </div>
 
               </div>
 
             </div>
-            <div class="img-bg-4">
+            <div class="img-bg-4"></div>
+            
               
             </div>
           </div>
@@ -715,7 +722,7 @@
                 <div class="card-body pl-3">
                   <h5 class="card-title">Алюминиевые теплые и холодные двери </h5>
                   <p class="card-text">окрашивание в любой цвет по каталогу RAL</p>
-                  <img class="img-card" src="images/small-elm-3.svg" alt="">
+                  <div class="img-card"></div>
                 </div>
               </div>
             </div>
@@ -865,7 +872,7 @@
 
 
 
-      <!-- <div class="row d-flex justify-content-around mt-4">
+      <div class="row d-flex justify-content-around mt-4">
       <div class="col-4 ">
         <img src="images/slider-img.svg" alt="">
       </div>
@@ -884,7 +891,7 @@
       <div class="col-4 mb-3">
         <img src="images/slider-img.svg" alt="">
       </div>
-    </div> -->
+    </div>
 
       <div class="h2 mt-5">
         Всего
@@ -961,14 +968,13 @@
       <div class="col-md-6 col-sm-12">
         <img src="images/logo.svg" alt="">
       </div>
-      <div class="col-6">
+      <div class="col-md-6 col-sm-12">
         <div class="row">
-          <a class="col" href="">Стоимость</a>
-          <a class="col" href="">Услуги</a>
-          <a class="col" href="">Преимущества</a>
-          <a class="col" href="">Проекты</a>
-          <a class="col" href="">Контакты</a>
-        </div>
+          <a class="col-sm-6 col-md-2" href="">Стоимость</a>
+          <a class="col-sm-6 col-md-2" href="">Услуги</a>
+          <a class="col-sm-6 col-md-2" href="">Преимущества</a>
+          <a class="col-sm-6 col-md-2" href="">Проекты</a>
+          <a class="col-sm-6 col-md-2" href="">Контакты</a>
       </div>
     </div>
   </footer>

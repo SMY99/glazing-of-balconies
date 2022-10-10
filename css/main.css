@@ -564,7 +564,15 @@ span {
     right: 0;
     z-index: -1;
 }
-
+.img-small{
+    top: 70px;
+    right: -100px;
+    width: 240px;
+    height: 280px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../images/small-elm-4.svg);
+}
 .img-bg-7{
     background-repeat: no-repeat;
     width: 900px;
@@ -576,8 +584,27 @@ span {
     top: 3390px;
 }
 .img-card{
+    width: 111px;
+    height: 70px;
+    background-image: url(../images/small-elm-3.svg);
     float: right;
 }
+
+.ring-number{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    background: #DC7778;
+    bottom: 25px;
+    left: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 21px;
+}
+
 .application-block .form-controls,
 .application-block-down .form-controls {
     width: 100%;
@@ -959,6 +986,9 @@ i{
 }
 .img-responsive{
     width: 100%;
+}
+.img-bg-4-fix{
+    display: none;
 }
 
 footer{
