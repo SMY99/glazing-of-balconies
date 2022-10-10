@@ -332,4 +332,15 @@
         display: block;
         width: 231px;
     }
+    .logo-footer{
+        width: 120px;
+        margin-bottom: 1rem;
+    }
+    footer a{
+        margin-bottom: 1rem;
+    }
+    footer{
+        padding: 1rem 0;
+        height: auto;
+    }
 }
