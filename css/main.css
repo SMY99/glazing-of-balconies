@@ -990,7 +990,67 @@ i{
 .img-bg-4-fix{
     display: none;
 }
+.col-center {
+    margin: 0 auto;
+    float: none !important;
+}
+.slider-img .carousel {	
+    margin-top: 30px;
+    padding: 0;
+}
+.slider-img  .carousel .carousel-item  {
+    text-align: center;
+    overflow: hidden;
+}
 
+.slider-img .carousel .carousel-item  img {
+    margin: 0 auto;
+}
+.slider-img .carousel .carousel-control {
+    width: 68px;
+    background: none;
+}
+.slider-img .carousel-control-next{
+    right: -190px;
+    height: auto;
+}
+.slider-img .carousel-control-prev{
+    left: -190px;
+    height: auto;
+}
+/* .slider-img .carousel-control-next-icon, .slider-img .carousel-control-prev-icon {
+    background-image: none;
+    width: 62px;
+    height: 62px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: none;
+    transition: 200ms;
+    color: #fff;
+} */
+
+/* .carousel-control-next-icon:hover,
+.carousel-control-next-icon:focus
+{
+    background-image: none;
+    background-color: #CA2223
+} */
+/* .carousel-control-next:hover path{
+    fill: #fff;
+} */
+circle{
+    transition: 250ms;
+}
+ svg:hover path,
+.carousel-control-prev:focus path{
+    fill: #fff;
+} 
+circle:hover{
+    fill: #CA2223;
+}
 footer{
     display: flex;
     align-items: center;
@@ -998,7 +1058,6 @@ footer{
     height: 150px;
     background: #3C3C3C;
 }
-
 footer a{
     font-style: normal;
     font-weight: 450;

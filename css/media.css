@@ -35,6 +35,12 @@
     .d-flex-content {
         flex-direction: column;
     }
+    .slider-img  .carousel .carousel-item  .img-box {
+        margin-bottom: 20px;
+    }
+    .carousel-item .mb-4{
+        margin-bottom: 0!important;
+    }
 
     section .card-body {
         margin-left: 0;
