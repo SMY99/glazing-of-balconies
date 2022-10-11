@@ -584,9 +584,7 @@ span {
     top: 3390px;
 }
 .img-card{
-    width: 111px;
-    height: 70px;
-    background-image: url(../images/small-elm-3.svg);
+    width: 50%;
     float: right;
 }
 
@@ -880,12 +878,6 @@ i{
     /* or 23px */
     color: #4A4A4A;
     padding-top: .8rem;
-}
-
-.img-house:nth-child(1) {
-    width: 360px;
-    height: 235px;
-    border: 10px;
 }
 
 .content-card-fix .card-body{

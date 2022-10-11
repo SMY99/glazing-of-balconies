@@ -49,7 +49,7 @@
     section .card img {
         width: 100% !important;
         border-radius: 10px 10px 0 0 !important;
-        max-height: 320px;
+        height: 100%;
         object-fit: cover;
     }
 
@@ -120,8 +120,8 @@
 
         color: #4A4A4A;
     }
-    img.img-card{
-        width: 60px!important;
+    .card .img-card{
+        width: 111px!important;
         height: auto!important;
     }
     .card img {
@@ -308,9 +308,25 @@
     }
 
     .red-block-text{
+        margin-top: 1rem;
         width: 170px;
+        padding: 0;
     }
-
+    .block-info-success-1 p{
+        width: 80%;
+    }
+    .btn-group, .btn-group-vertical{
+        vertical-align: baseline;
+    }
+    .img-bg-6 img, .img-small{
+        position: initial;
+    }
+    .slider-img .carousel-control-next{
+        right: 0;
+    }
+    .slider-img .carousel-control-prev{
+        left: 0;
+    }
     .fix{
         font-size: 20px;
     }
@@ -321,10 +337,6 @@
     .h3{
         text-align: center;
         font-size: 25px;
-    }
-    .btn-group{
-        display: flex;
-        justify-content: center;
     }
     .img-bg-4{
         width: 231px;
@@ -348,5 +360,10 @@
     footer{
         padding: 1rem 0;
         height: auto;
+    }
+
+    .my-col-6{
+        flex: 0 0 auto;
+        width: 50%;
     }
 }
